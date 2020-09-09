@@ -88,7 +88,7 @@ Open up a terminal within the root of the project
 
 **2. The setting of *spring.application.name* in the bootstrap.properties file, this value will be used when accessing the Vault Storage.**
 
-**3. Loading of the Vault secret is performed using *Value* annotation in the *WebController* - same way as loading Values from a config server.**
+**3. Loading of the Vault secret is performed using *Value* annotation in the *DemoController* - same way as loading Values from a config server or local config file.**
 
 **4. Spring Cloud Vault Config reads config properties from Vaults using the application name and active profiles:**
 
