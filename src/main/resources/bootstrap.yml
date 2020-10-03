@@ -15,5 +15,6 @@ spring:
         application-name: service-client
       generic:
         enabled: false
+      enabled: false
   application:
     name: service-client
